@@ -1,0 +1,27 @@
+name: tdd_starter
+description: A new app for get start project with TDD
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  bloc_concurrency: ^0.2.5
+  get_it: ^7.6.6
+  equatable: ^2.0.5
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
